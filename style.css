@@ -61,10 +61,3 @@ span {
   background-color: rgba(100,100,100,.5);
 }
 
-#CV {
-  display: flex;
-	justify-content: center;
-	border:solid;
-	border-radius: 10px;
-}
-
