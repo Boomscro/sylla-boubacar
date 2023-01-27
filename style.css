@@ -1,0 +1,70 @@
+h1
+
+{
+
+color: red; 
+
+}
+body
+
+{
+
+background-image: url("fond.jpg");
+}
+
+
+body
+
+{
+
+
+color: white; /* Le texte de la page sera blanc */ 
+
+
+
+
+
+} 
+
+
+p
+
+{
+
+font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+
+}
+
+
+
+span {
+ border:1px solid red;
+ padding:3px;
+ }
+
+
+
+
+
+
+
+
+
+.box {
+  background-color: #567895;
+}
+
+h2 {
+  color: skyblue;
+}
+span {
+  background-color: rgba(100,100,100,.5);
+}
+
+#CV {
+  display: flex;
+	justify-content: center;
+	border:solid;
+	border-radius: 10px;
+}
+

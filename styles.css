@@ -1,0 +1,170 @@
+html
+
+
+#frame {
+    position: absolute;
+    top: 45.5%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px;
+    width: 0px;
+    padding: 120px;
+    box-sizing: border-box; /* pour inclure les bordures dans les dimensions de la boîte */
+}
+
+#frame2 {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px;
+    width: 0px;
+    padding: 120px;
+    box-sizing: border-box; /* pour inclure les bordures dans les dimensions de la boîte */
+}
+
+#frame3 {
+    position: absolute;
+    top: 41%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 500px;
+    margin: 150px;
+    width: 1600px;
+    padding: 120px;
+    box-sizing: border-box; /* pour inclure les bordures dans les dimensions de la boîte */
+}
+
+
+
+body {
+    background-color: #272222;
+}
+
+.presentation {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black
+    1px solid rgb(252, 252, 252);
+    color: white
+}
+
+.Titre{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+
+/*************bordure*************/
+.bordered-box {
+  
+    width : 50px;	
+	height : 50px;
+	border: #ffffff solid 2px;	
+	margin-left: 90px;
+	top: 100px;
+	float: left;
+    }
+
+
+/*-----------banniere---------------*/
+header {
+   
+
+        border-width: 100px 150px 10px;
+        border-style: solid;
+        border-color: currentColor;
+        border-color: transparent;
+        border-radius: 20px;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+/*-----------bordure du menu---------------*/
+nav ul li a {
+    width: 100px;
+    display: inline-block;
+    height:40px;
+    background: linear-gradient(to bottom, #333333, #fff);
+    border: none;
+}
+
+/*-----------menu---------------*/
+nav ul li a {
+    width: 100px;
+    display: inline-block;
+    height:40px;
+    background: linear-gradient(to bottom, #333333, #fff);
+    border: 1px solid #000; /* Ajout de la bordure */
+}
+
+
+nav {
+    position: fixed;
+    bottom: 342px;
+    left: 65px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    right: 50%px;
+}
+li:hover .submenu {
+    display: block;
+}
+/*bordure banniere   */
+.rounded-top-border {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 1px solid rgb(255, 0, 0);
+    padding: 0px;
+    position: absolute;
+  }
+  .banner {
+    width: 100%;
+    background-color: #333333;
+    padding: 20px;
+
+    box-shadow: 0px 2px 3px 0px rgb(90, 90, 90);
+
+
+
+    /*pieds de page*/
+  }
+
+  #footer {
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 30px;
+    width: 90%;
+    height: 50px;
+    left: 5%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
